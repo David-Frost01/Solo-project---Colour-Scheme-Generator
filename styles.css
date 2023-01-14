@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #1f1f1f;
+    font-size: 16px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: .2em;
+}
+
+.colours {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-dsp {
+    width: 20%;
+    text-align: center;
+}
+.color {
+    height: 65vh;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#color-input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+#scheme-input {
+    margin: 0 .2em;
+}
+
+#scheme-input, #input-btn {
+    padding: .75em 2em;
+    border: none;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
